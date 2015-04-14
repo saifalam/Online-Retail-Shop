@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/orcl12">
+    <Resource auth="Container" 
+            driverClassName="oracle.jdbc.OracleDriver" 
+            name="jdbc/orcl12" 
+            password="orcl12" 
+            type="javax.sql.DataSource" 
+            url="jdbc:oracle:thin:@localhost:1521:orcl12?user=system"  
+            user="system"/>
+</Context>
